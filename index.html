@@ -11,14 +11,18 @@
         <h4>Formulário 01</h4>
         <form action="Servidor" method="POST" name="form">
             <label>Nome: </label>
-            <input type="text" name="nome" maxlength="30" size="60"><br/><br/>
+            <input type="text" name="nome" maxlength="30" size="60" required><br/><br/>
 
             <label>Senha:</label>
             <input type="password" name="senha" maxlength="8">
             <br/><br/>
 
-            <input type="submit">
-            <input type="reset">    
+            Observação: <textarea>
+                mensagens...
+            </textarea>
+
+            <input type="submit" value="OK">
+            <input type="reset" value="Apagar">    
         </form>
 
 
